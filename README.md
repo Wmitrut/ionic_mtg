@@ -1,26 +1,33 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+<p align="center">
+    <img width="200" height="auto" src="src/assets/imgs/logo.png"/>
+</p>
 
-## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+# Ionic MTG
 
-### With the Ionic CLI:
+I don't know what I want to do in this project yet, for now is just a test with the MTG API:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+    1. npm install -g ionic cordova
+    2. Clone the repository
+    3. Enter on the project and run npm install
+    4. After the install, just run ionic serve
+    5. The project will build and watch in the localhost:8100
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
 
-Then, to run it, cd into `myTabs` and run:
+# Build and deploy
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+    1. run npm install
+    2. After the install, just run **ionic serve**
+    3. The project will build and watch in the **localhost:8100**
+    4. To deploy to device make sure that you already have the Android SDK installed on your computer
+    5. Plug an Android device to your computer
+    6. Run: **ionic cordova run android**
+    7. To build a production app use the flag --prod (even in ionic serve)   
 
-Substitute ios for android if not on a Mac.
+That will build the app in the browser in the first 3 steps and deploy the app to an android device in the others.
 
+
+### Want to contribute? Make a PR :D, everyone is welcome
+
+ Thank you.
